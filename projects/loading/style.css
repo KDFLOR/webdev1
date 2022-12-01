@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.loading {
+    animation-fill-mode: forwards;
+  padding: 1rem;
+  right: 5rem;
+}
+
+#waiting {
+  width: 100px;
+  height: 100px;
+  animation-name: rotate;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-fill-mode:none;
+  animation-direction: alternate;
+}
+.buffering {
+ border-radius: 10%;
+
+}
+.heart {
+  width: 100px;
+  height: 100px;
+  animation-name: rotate;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes rotate {
+  
+  from {
+    transform: scale(0);
+    border-radius: 0;
+    opacity: 1;
+  }
+  
+  to {
+    transform: scale(3);
+    border-radius: 100%;
+    opacity: 5;
+    background-color: white;
+  }
+}
+.animation-container {
+  padding: 3rem;
+  margin: 0 auto;
+}

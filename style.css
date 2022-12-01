@@ -5,20 +5,34 @@
         padding: 0;
         box-sizing: border-box;
       }
+
+      title {
+        padding: 0rem;
+        color: black;
+      }
       body {
-        max-width: 25rem;
+        max-width: 30rem;
         margin: 0 auto;
+        background-color: rgb(200, 217, 203);
 
        }
 
        h1  {
-            color: red;
+            color: rgb(45, 47, 39);
+        }
+
+        h2 {
+          color: darkslateblue;
         }
 
         p {
             font-family: arial;
 
         }
-
-       
-        }
+        
+       footer {
+        color: darkgreen;
+        border: 1rem;
+        margin: 0 auto;
+       }
+        
