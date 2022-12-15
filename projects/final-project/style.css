@@ -1,64 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
-
-header {
-    margin-bottom: 3rem;
-  
-
-}
-nav a:hover {
-  color: orangered;
-}
-html {
-  scroll-behavior: smooth;
-}
-
 body {
-	font-family: 'Poppins', sans-serif;
-  max-width:600px;
-  margin: 0 auto;
-  background-color:#F2EAE9;
-   padding: 50px;
+  background: rgb(238,174,202);
+  background: linear-gradient(45deg, rgba(238,100,202,1) 0%, rgba(148,187,233,1) 100%);
+ min-height: 100vh;
+ text-align: center;
+ color: yellow;
+ font-family: courier new;
+ 
 
+}
+
+a {
+text-decoration: line;
+color: magenta;
  
 }
 
-    
-h2 {font-size: 18px;
-  margin-top: 3rem;
-    }
-h3 {font-size: 18px;
-    margin-top: 3rem;
-
-    }
-h4 {font-size: 18px;
-    margin-top: 3rem;
-
-    }
-
-p{
-  line-height: 1.5;
-}
 img {
-  display: block;
+ display: block;
   margin-left: auto;
-  margin-right: auto;
-  width: 70%;
-  padding: 1rem;
-} 
+ margin-right: auto;
+ width: 50%;
+ padding: 1rem;
+ 
+}
+
+.box {
+ padding: 1em;
+ height: 180px;
+  background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%); 
+
+}
+
 
 footer {
-  text-align: center;
-  margin-top: 5rem;
-} 
-
-.back-to-top {
-  background-color: #474747;
-  opacity: 0.7;
-    padding: 1rem;
-  position: fixed;
-  bottom: 0;
-  right:0;
-  color: white;
-  border-radius: 0.5rem;
-
+ text-align: center;
+ padding: 1rem;
+   margin-bottom: 0;
+    background: rgb(324,536,156);
+background: linear-gradient(0deg,
+rgba(31,212,216,0.8) 0%, rgba(40,236,79,0.8) 60%); 
 }
